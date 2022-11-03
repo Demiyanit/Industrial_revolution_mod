@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "industrialrev:item/dream_cluster_texture"
+  }
+}
