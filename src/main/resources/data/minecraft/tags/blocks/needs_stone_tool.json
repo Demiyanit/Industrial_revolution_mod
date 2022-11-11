@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "industrial_revolution:lead_ore",
+    "industrial_revolution:tin_ore",
+    "industrial_revolution:lead_block",
+    "industrial_revolution:tin_block"
+  ]
+}

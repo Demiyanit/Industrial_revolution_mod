@@ -22,23 +22,23 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> TEST_BLOCK = registerBlock("test_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.INDUSTRIAL_REVOLUTION_TAB);
+                    .strength(3f).requiresCorrectToolForDrops()), ModCreativeModeTab.INDUSTRIAL_REVOLUTION_TAB);
 
     public static final RegistryObject<Block> TIN_ORE = registerBlock("tin_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.INDUSTRIAL_REVOLUTION_TAB);
+                    .strength(3f).requiresCorrectToolForDrops()), ModCreativeModeTab.INDUSTRIAL_REVOLUTION_TAB);
 
     public static final RegistryObject<Block> LEAD_ORE = registerBlock("lead_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.INDUSTRIAL_REVOLUTION_TAB);
+                    .strength(3f).requiresCorrectToolForDrops()), ModCreativeModeTab.INDUSTRIAL_REVOLUTION_TAB);
 
     public static final RegistryObject<Block> LEAD_BLOCK = registerBlock("lead_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.INDUSTRIAL_REVOLUTION_TAB);
+                    .strength(3f).requiresCorrectToolForDrops()), ModCreativeModeTab.INDUSTRIAL_REVOLUTION_TAB);
 
     public static final RegistryObject<Block> TIN_BLOCK = registerBlock("tin_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.INDUSTRIAL_REVOLUTION_TAB);
+                    .strength(3f).requiresCorrectToolForDrops()), ModCreativeModeTab.INDUSTRIAL_REVOLUTION_TAB);
 
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab ){
