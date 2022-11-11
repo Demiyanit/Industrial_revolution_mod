@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "industrial_revolution:test_item"
+      "item": "industrial_revolution:lead_ingot"
     }
   },
   "result": {
-    "item": "industrial_revolution:test_block"
+    "item": "industrial_revolution:lead_block"
   }
 }

@@ -1,0 +1,13 @@
+{
+  "item.industrial_revolution.test_item": "Test item",
+  "item.industrial_revolution.tin_ingot": "Tin ingot",
+  "item.industrial_revolution.lead_ingot": "Lead ingot",
+
+  "block.industrial_revolution.test_block": "Test block",
+  "block.industrial_revolution.tin_ore": "Tin ore",
+  "block.industrial_revolution.lead_ore": "Lead ore",
+  "block.industrial_revolution.lead_block": "Lead block",
+  "block.industrial_revolution.tin_block": "Tin block",
+
+  "itemGroup.industrial_revolution_tab": "Industrial revolution"
+}
