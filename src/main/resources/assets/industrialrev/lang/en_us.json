@@ -1,12 +1,9 @@
 {
-  "item.industrialrev.dream_shard": "Dream shard",
-  "item.industrialrev.dream_cluster": "Dream cluster",
   "item.industrialrev.test_item": "Test item",
-  "item.industrialrev.test_raw_item": "Raw test item",
 
   "block.industrialrev.test_block": "Test block",
-  "block.industrialrev.test_ore": "Test ore",
-  "block.industrialrev.deepslate_test_ore": "Deepslate test block",
+  "block.industrialrev.tin_ore": "Tin ore",
+  "block.industrialrev.lead_ore": "Lead ore",
 
   "itemGroup.industrial_revolution_tab": "Industrial revolution"
 }
