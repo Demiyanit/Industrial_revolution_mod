@@ -3,6 +3,8 @@ package net.lolgames.industrial_revolution;
 import com.mojang.logging.LogUtils;
 import net.lolgames.industrial_revolution.block.ModBlocks;
 import net.lolgames.industrial_revolution.item.ModItems;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -38,6 +40,7 @@ public class industrial_revolution
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.TEST_CROP.get(), RenderType.cutout());
 
         }
     }

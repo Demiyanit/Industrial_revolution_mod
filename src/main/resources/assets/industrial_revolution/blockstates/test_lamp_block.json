@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "industrial_revolution:block/test_lamp_on" },
+    "lit=false": { "model": "industrial_revolution:block/test_lamp_off" }
+  }
+}

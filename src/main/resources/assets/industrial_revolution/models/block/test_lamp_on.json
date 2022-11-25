@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "industrial_revolution:block/test_lamp_on"
+  }
+}
